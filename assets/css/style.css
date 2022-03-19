@@ -30,7 +30,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: 100vh;
   width: 100%;
-  background-image: url(/img/bg.png);
+  background-color: darkslateblue;
 }
 
 .container {
@@ -68,6 +68,8 @@ body {
   background-color: darkslateblue;
   color: #fff;
   width: 30vw;
+  border: 1px solid;
+  margin: 10px;
 }
 
 .search__area button {
@@ -121,7 +123,7 @@ body {
   width: 50%;
   padding: 1rem;
   text-align: center;
-  background-image: url(/img/img1.jpeg);
+  background-image: url(../img/img1.jpeg);
   background-position: center;
   background-size: cover;
 }
