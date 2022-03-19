@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title> weather project</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="search__area">
+            <input type="text" placeholder="Enter the city name " id="searchInput">
+            <button id="searchBtn">Search</button>
+        </div>
+        <div class="innerWetherApp">
+            <div class="left__content">
+                <h3 id="searchName">Search Result</h3>
+               <div class="img-center">
+                <img id="img" src="" alt="">
+               </div>
+               <h3 id="cityName"></h3>
+               <p id="condition">clear</p>
+               <div class="weather__details">
+                    Temp: <span id="temp"></span> &#176;c , <br>
+                    Pressure : <span id="pressure"></span> , <br>
+                    Humidity : <span id="humidity"></span>.
+               </div>
+            </div>
+            <div class="right__content">
+               <div class="search__history ">
+
+               </div>
+              
+          
+
+            
+        </div>
+       
+    </div>
+   
+
+    <script src="./js/app.js"></script>
+</body>
+</html>

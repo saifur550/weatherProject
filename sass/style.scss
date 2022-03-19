@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+/* ========== Colors ========== */
+:root {
+  --default: #00000071;
+  --bg-color: #01000c;
+  --dark-color: #3c4858;
+  --grey: #8492a6;
+  --white: #fff;
+  --black: #000;
+}
+
+/* ========== Reset ========== */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  width: 100%;
+  background-image: url(/img/bg.png);
+}
+
+
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+}
+
+
+
+.search__area{
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 1rem;
+ 
+
+  input,
+  button{
+    padding: 1rem;
+    border: none;
+    padding: 1rem 2rem;
+    outline: none;
+  }
+
+  input{
+    margin-left: 1rem;
+    background-color: darkslateblue;
+    color: #fff;
+    width: 30vw;
+  }
+
+  button{
+    background-color: coral;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+
+  ::placeholder {
+    color: #fff9f9;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+  }
+
+  input[type=text]{
+    color: #fff;
+    letter-spacing: 2px;
+  }
+ 
+}
+
+.innerWetherApp{
+  padding-top: 2rem;
+  display: flex;
+  height: 50vh;
+  margin-top: 1rem;
+  color: #fff;
+  font-size: 1.1rem;
+ 
+
+  .left__content{
+ 
+    width: 50%;
+    padding: 1rem;
+    text-align: center;
+    background-image: url(/img/img1.jpeg);
+    background-position: center;
+    background-size: cover;
+    
+
+
+    .weather__details{
+      margin-top: 1rem;
+    }
+
+
+  }
+  
+  .right__content{
+    width: 45%;
+    color: #000;
+    height: 100%;
+    margin-left: 1rem;
+   
+
+  
+  }
+  .history{
+    display: flex;
+    align-items: center;
+    border: 2px solid #000000;
+    margin-bottom: 10px;
+    background-color: #ffffff57;
+    color: rgb(0, 0, 0);
+
+    img{
+  
+      height: 100px;
+      margin-right: 1rem;
+      object-fit: cover;
+    }
+    
+  }
+
+}
+
+
